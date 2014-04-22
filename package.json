@@ -12,6 +12,6 @@
     "postprocessor"
   ],
   "dependencies": {
-    "please": "0.1.0"
+    "please": "0.1.x"
   }
 }
