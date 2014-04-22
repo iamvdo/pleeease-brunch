@@ -1,0 +1,17 @@
+{
+  "name": "please-brunch",
+  "version": "0.1.0",
+  "author": {
+    "name": "Vincent De Oliveira"
+  },
+  "description": "Adds Please support to brunch.",
+  "main": "./lib/index",
+  "keywords": [
+    "postcss",
+    "brunch",
+    "postprocessor"
+  ],
+  "dependencies": {
+    "please": "0.1.0"
+  }
+}
