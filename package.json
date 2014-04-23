@@ -1,10 +1,10 @@
 {
-  "name": "please-brunch",
+  "name": "pleeease-brunch",
   "version": "0.1.1",
   "author": {
     "name": "Vincent De Oliveira"
   },
-  "description": "Adds Please support to brunch.",
+  "description": "Adds Pleeease support to Brunch.",
   "main": "./lib/index",
   "keywords": [
     "postcss",
@@ -12,6 +12,6 @@
     "postprocessor"
   ],
   "dependencies": {
-    "please": "0.1.x"
+    "pleeease": "0.1.x"
   }
 }
