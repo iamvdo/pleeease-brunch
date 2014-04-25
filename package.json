@@ -1,6 +1,6 @@
 {
   "name": "pleeease-brunch",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "author": {
     "name": "Vincent De Oliveira"
   },
@@ -9,9 +9,10 @@
   "keywords": [
     "postcss",
     "brunch",
-    "postprocessor"
+    "postprocessor",
+    "pleeease"
   ],
   "dependencies": {
-    "pleeease": "0.1.x"
+    "pleeease": "0.2.x"
   }
 }
