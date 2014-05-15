@@ -8,7 +8,7 @@ Add [Pleeease](https://github.com/iamvdo/pleeease) support to [Brunch](https://g
 Add this package to your `package.json` file, then `npm install`.
 
 	{
-		"pleeease-brunch": "0.2.x"
+		"pleeease-brunch": "0.3.x"
 	}
 
 Or you can `npm install --save pleeease-brunch`.
@@ -20,12 +20,15 @@ All options are in brunch-config file, in the `plugins.pleeease` section, like s
 ```javascript
 	plugins:
 		pleeease:
-			autoprefixer: true
-			minifier: true
-			mqpacker: true
 			fallbacks:
+				autoprefixer: true
 				variables: true
 				rem: false
+				pseudoElements: true
+			optimizers:
+				import: true
+				mqpacker: true
+				minifier: true
 ```
 
 Note that pleeease-brunch is an optimizer, so it runs only when `optimize` is set to `true`.
