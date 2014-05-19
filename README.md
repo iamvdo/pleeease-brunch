@@ -15,7 +15,7 @@ Or you can `npm install --save pleeease-brunch`.
 
 ##Add options
 
-All options are in brunch-config file, in the `plugins.pleeease` section, like so:
+All options are in brunch-config file (all set to `true`), in the `plugins.pleeease` section, like so:
 
 ```javascript
 	plugins:
@@ -23,7 +23,7 @@ All options are in brunch-config file, in the `plugins.pleeease` section, like s
 			fallbacks:
 				autoprefixer: true
 				variables: true
-				rem: false
+				rem: true
 				pseudoElements: true
 			optimizers:
 				import: true
