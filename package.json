@@ -1,6 +1,6 @@
 {
   "name": "pleeease-brunch",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": {
     "name": "Vincent De Oliveira"
   },
@@ -13,6 +13,6 @@
     "pleeease"
   ],
   "dependencies": {
-    "pleeease": "0.3.x"
+    "pleeease": "0.4.x"
   }
 }
