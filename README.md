@@ -8,7 +8,7 @@ Add [Pleeease](https://github.com/iamvdo/pleeease) support to [Brunch](https://g
 Add this package to your `package.json` file, then `npm install`.
 
 	{
-		"pleeease-brunch": "0.4.x"
+		"brunch-pleeease": "0.4.x"
 	}
 
 Or you can `npm install --save pleeease-brunch`.
