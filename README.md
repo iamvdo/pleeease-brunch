@@ -11,7 +11,7 @@ Add this package to your `package.json` file, then `npm install`.
 		"brunch-pleeease": "0.4.x"
 	}
 
-Or you can `npm install --save pleeease-brunch`.
+Or you can `npm install --save brunch-pleeease`.
 
 Actually, it matches Pleeease 0.4.x.
 
@@ -35,7 +35,7 @@ All options are in `brunch-config` file (all set to `true`), in the `plugins.ple
 			sourcemaps: false
 ```
 
-Note that pleeease-brunch is an optimizer, so it runs only when `optimize` is set to `true`.
+Note that brunch-pleeease is an optimizer, so it runs only when `optimize` is set to `true`.
 
 ##Sourcemaps
 
