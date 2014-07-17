@@ -1,5 +1,5 @@
-pleeease-brunch
-=============
+brunch-pleeease
+===============
 
 Add [Pleeease](https://github.com/iamvdo/pleeease) support to [Brunch](https://github.com/brunch/brunch)
 
