@@ -20,7 +20,7 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "pleeease": "^1.0.0"
+    "pleeease": "^3.0.0"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
