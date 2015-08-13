@@ -29,3 +29,8 @@ Brunch concatenates files and manages sourcemaps on its own. But, if you `@impor
 ##Options
 
 See [Pleeease](http://pleeease.io/docs/#features).
+
+##Changelog
+
+2.0.0 - 08-13-2015
+- Match Pleeease v3
