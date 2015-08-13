@@ -5,33 +5,19 @@ Add [Pleeease](https://github.com/iamvdo/pleeease) support to [Brunch](https://g
 
 ##Install
 
-Add this package to your `package.json` file, then `npm install`.
-
-	{
-		"pleeease-brunch": "^1.0.0"
-	}
-
-Or you can `npm install --save pleeease-brunch`.
-
-Actually, it matches Pleeease 1.x.x.
+	`npm install --save pleeease-brunch`
 
 ##Add options
 
-All options are in `brunch-config` file, in the `plugins.pleeease` section, like so:
+All options are in `brunch-config` file, in the `plugins.pleeease` section, for example:
 
 ```javascript
 	plugins:
 		pleeease:
-			autoprefixer: true
-			filters: true
-			rem: true
-			pseudoElements: true
-			opacity: true
-			import: true
-			mqpacker: true
-			minifier: true
-			next: false
-			sourcemaps: false
+			autoprefixer:
+				browsers: ['last 3 versions']
+			rem: ['20px']
+
 ```
 
 Note that pleeease-brunch is an optimizer, so it runs only when `optimize` is set to `true`.
