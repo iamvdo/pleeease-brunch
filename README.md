@@ -1,4 +1,4 @@
-brunch-pleeease
+pleeease-brunch
 ===============
 
 Add [Pleeease](https://github.com/iamvdo/pleeease) support to [Brunch](https://github.com/brunch/brunch)
@@ -8,10 +8,10 @@ Add [Pleeease](https://github.com/iamvdo/pleeease) support to [Brunch](https://g
 Add this package to your `package.json` file, then `npm install`.
 
 	{
-		"brunch-pleeease": "^1.0.0"
+		"pleeease-brunch": "^1.0.0"
 	}
 
-Or you can `npm install --save brunch-pleeease`.
+Or you can `npm install --save pleeease-brunch`.
 
 Actually, it matches Pleeease 1.x.x.
 
@@ -34,7 +34,7 @@ All options are in `brunch-config` file, in the `plugins.pleeease` section, like
 			sourcemaps: false
 ```
 
-Note that brunch-pleeease is an optimizer, so it runs only when `optimize` is set to `true`.
+Note that pleeease-brunch is an optimizer, so it runs only when `optimize` is set to `true`.
 
 ##Sourcemaps
 
