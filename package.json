@@ -5,6 +5,10 @@
     "name": "Vincent De Oliveira"
   },
   "description": "Adds Pleeease support to Brunch.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamvdo/pleeease-brunch.git"
+  },
   "main": "./lib/index",
   "keywords": [
     "postcss",
