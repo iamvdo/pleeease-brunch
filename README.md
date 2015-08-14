@@ -21,6 +21,18 @@ All options are in `brunch-config` file, in the `plugins.pleeease` section, for 
 
 Note that pleeease-brunch is an optimizer, so it runs only when `optimize` is set to `true`.
 
+##Preprocessors
+
+Pleeease makes so easy to combine preprocessors and PostCSS. Set which one you want to use from options. For example Stylus and Autoprefixer:
+
+```javascript
+  plugins:
+    pleeease:
+      stylus: true
+      autoprefixer:
+        browsers: ['last 3 versions']
+```
+
 ##Sourcemaps
 
 Brunch concatenates files and manages sourcemaps on its own. But, if you `@import` CSS files using Pleeease, you can force sourcemaps generation for these files too. Simply add `plugin.pleeease.sourcemaps: true` option in your `brunch-config` file.
