@@ -43,5 +43,8 @@ See [Pleeease](http://pleeease.io/docs/#features).
 
 ##Changelog
 
+2.0.1 - 08-14-2015
+- Fix package creation
+
 2.0.0 - 08-13-2015
 - Match Pleeease v3
