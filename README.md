@@ -1,7 +1,7 @@
 pleeease-brunch
 ===============
 
-Add [Pleeease](https://github.com/iamvdo/pleeease) support to [Brunch](https://github.com/brunch/brunch)
+[Process CSS with ease](https://github.com/iamvdo/pleeease), and [Brunch](https://github.com/brunch/brunch).
 
 ##Install
 
@@ -17,7 +17,6 @@ All options are in `brunch-config` file, in the `plugins.pleeease` section, for 
 			autoprefixer:
 				browsers: ['last 3 versions']
 			rem: ['20px']
-
 ```
 
 Note that pleeease-brunch is an optimizer, so it runs only when `optimize` is set to `true`.
