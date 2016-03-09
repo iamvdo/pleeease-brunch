@@ -20,7 +20,8 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "pleeease": "^4.0.1"
+    "pleeease": "^4.0.1",
+    "deep-extend": "^0.4.1"
   },
   "devDependencies": {
     "mocha": "^2.2.5",
