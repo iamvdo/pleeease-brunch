@@ -43,6 +43,9 @@ See [Pleeease](http://pleeease.io/docs/#features).
 
 ##Changelog
 
+3.0.0 - 03-09-2016
+- Update to Pleeease 4
+
 2.0.1 - 08-14-2015
 - Fix package creation
 
